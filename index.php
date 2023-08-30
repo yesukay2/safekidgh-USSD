@@ -5,7 +5,7 @@
     $text = $_POST['text'];
 
     if($text == ""){
-        $response = "CON Welcome to Child Right Int. USSD portal\n.";
+        $response = "CON Welcome to Child Right Int. USSD portal.\n";
         $response .= "1. Report an abuse.\n";
         $response .= "2. Cancel\n";
     }
