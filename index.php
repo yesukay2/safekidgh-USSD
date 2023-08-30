@@ -26,7 +26,51 @@
         $response .= "4. Child Neglect\n";
         $response .= "5. Online\n";
     }
-    elseif($text == "1*1*1" || $text = "1*2*1" || $text == "1*1*2" || $text = "1*2*2"||$text == "1*1*3" || $text = "1*2*3"||$text == "1*1*4" || $text = "1*2*4"||$text == "1*1*5" || $text = "1*2*5"){
+    elseif($text == "1*1*1"){
+        $response = "END Thank you for reporting...\n";
+        $response .= "Please keep the number $phoneNumber on.\n";
+        $response .= "Our Child Protection Officer will call you shortly.\n";
+    }
+    elseif($text = "1*2*1"){ 
+        $response = "END Thank you for reporting...\n";
+        $response .= "Please keep the number $phoneNumber on.\n";
+        $response .= "Our Child Protection Officer will call you shortly.\n";
+    }
+    elseif($text == "1*1*2"){ 
+        $response = "END Thank you for reporting...\n";
+        $response .= "Please keep the number $phoneNumber on.\n";
+        $response .= "Our Child Protection Officer will call you shortly.\n";
+    }
+    elseif($text = "1*2*2"){ $response = "END Thank you for reporting...\n";
+        $response .= "Please keep the number $phoneNumber on.\n";
+        $response .= "Our Child Protection Officer will call you shortly.\n";
+    }
+    elseif($text == "1*1*3") {
+        $response = "END Thank you for reporting...\n";
+        $response .= "Please keep the number $phoneNumber on.\n";
+        $response .= "Our Child Protection Officer will call you shortly.\n";
+    }
+    elseif($text = "1*2*3"){
+        $response = "END Thank you for reporting...\n";
+        $response .= "Please keep the number $phoneNumber on.\n";
+        $response .= "Our Child Protection Officer will call you shortly.\n";
+    }
+    elseif($text == "1*1*4"){
+        $response = "END Thank you for reporting...\n";
+        $response .= "Please keep the number $phoneNumber on.\n";
+        $response .= "Our Child Protection Officer will call you shortly.\n";
+    }
+    elseif($text = "1*2*4"){
+        $response = "END Thank you for reporting...\n";
+        $response .= "Please keep the number $phoneNumber on.\n";
+        $response .= "Our Child Protection Officer will call you shortly.\n";
+    }
+    elseif($text == "1*1*5"){
+        $response = "END Thank you for reporting...\n";
+        $response .= "Please keep the number $phoneNumber on.\n";
+        $response .= "Our Child Protection Officer will call you shortly.\n";
+    }
+    elseif($text = "1*2*5"){
         $response = "END Thank you for reporting...\n";
         $response .= "Please keep the number $phoneNumber on.\n";
         $response .= "Our Child Protection Officer will call you shortly.\n";
